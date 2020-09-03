@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">AlcazarTourGuide</string>
+
+    <!-- Menu options [CHAR LIMIT=NONE] -->
+    <string name="emblematic">Emblematic places</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="events">Events</string>
+    <string name="Museums">Museums</string>
+
+    <!-- Emblematic places [CHAR LIMIT=NONE] -->
+    <string name="mills">The Mills</string>
+    <string name="bull_ring">The Bull Ring</string>
+    <string name="torreon">The Torreon</string>
+    <string name="alces">The Alces Park</string>
+    <string name="train">The Train Station</string>
+    <string name="castelar">The Castelar</string>
+
+    <!-- Restaurants [CHAR LIMIT=NONE] -->
+    <string name="vicente">Casa Vicente</string>
+    <string name="puente">El Puente</string>
+    <string name="cayetana">La Cayetana</string>
+    <string name="cancelas">Las Cancelas</string>
+    <string name="mancha">La Mancha</string>
+    <string name="chata">La Chata</string>
+    <string name="santina">La Santina</string>
+
+    <!-- Hotels [CHAR LIMIT=NONE] -->
+    <string name="intur">Intur Hotel</string>
+    <string name="insula_barataria">Insula Barataria</string>
+    <string name="santa_clara">Convento Santa Clara</string>
+    <string name="hidalgo_quijada">Hidalgo Quijada Hotel</string>
+    <string name="welcome2">Welcome2 Alcazar</string>
+    <string name="dulcinea">Dulcinea de El Toboso</string>
+    <string name="bachiller">La Casa del Bachiller</string>
+
+    <!-- Museums [CHAR LIMIT=NONE] -->
+    <string name="mucipal">Municipal Museum</string>
+    <string name="hidalgo">Casa del Hidalgo</string>
+    <string name="railroad">Railroad National Museum</string>
+    <string name="pottery">Pottery Museum</string>
+    <string name="bull_fighting">Bull-fighting Museum</string>
+    <string name="samper">Jose Luis Samper Museum</string>
+    <string name="moorish_and_christians">Moorish and Christians Museum</string>
+    <string name="cubillo">El Cubillo</string>
+
+
+
+
+
+
+
+
+
 </resources>
