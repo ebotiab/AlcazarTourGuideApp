@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">AlcazarTourGuide</string>
 
+    <!-- Message of the Splash Activity [CHAR LIMIT=NONE] -->
+    <string name="welcome">Welcome to Alcázar de San Juan</string>
+
     <!-- Menu options [CHAR LIMIT=NONE] -->
     <string name="emblematic">Emblematic places</string>
     <string name="restaurants">Restaurants</string>
@@ -15,6 +18,8 @@
     <string name="alces">The Alces Park</string>
     <string name="train">The Train Station</string>
     <string name="castelar">The Castelar</string>
+    <string name="local_government">The Local Government</string>
+
 
     <!-- Restaurants [CHAR LIMIT=NONE] -->
     <string name="vicente">Casa Vicente</string>
@@ -43,13 +48,6 @@
     <string name="samper">Jose Luis Samper Museum</string>
     <string name="moorish_and_christians">Moorish and Christians Museum</string>
     <string name="cubillo">El Cubillo</string>
-
-
-
-
-
-
-
 
 
 </resources>
