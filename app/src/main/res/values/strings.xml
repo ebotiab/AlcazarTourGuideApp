@@ -5,11 +5,10 @@
     <string name="welcome">Welcome to Alcázar de San Juan</string>
 
     <!-- Menu options [CHAR LIMIT=NONE] -->
-    <string name="emblematic">Emblematic places</string>
-    <string name="restaurants">Restaurants</string>
-    <string name="hotels">Hotels</string>
-    <string name="events">Events</string>
-    <string name="Museums">Museums</string>
+    <string name="category_emblematic">Emblematic places</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_hotels">Hotels</string>
 
     <!-- Emblematic places [CHAR LIMIT=NONE] -->
     <string name="mills">The Mills</string>
@@ -19,6 +18,15 @@
     <string name="castelar">The Castelar</string>
     <string name="local_government">The Local Government</string>
     <string name="bull_ring">The Bull Ring</string>
+
+    <!-- Museums [CHAR LIMIT=NONE] -->
+    <string name="municipal">Municipal Museum</string>
+    <string name="hidalgo">Casa del Hidalgo</string>
+    <string name="railroad">Railroad National Museum</string>
+    <string name="pottery">Pottery Museum</string>
+    <string name="samper">Jose Luis Samper Museum</string>
+    <string name="moorish_and_christians">Moorish and Christians Museum</string>
+    <string name="cubillo">El Cubillo</string>
 
     <!-- Restaurants [CHAR LIMIT=NONE] -->
     <string name="vicente">Casa Vicente</string>
@@ -38,15 +46,6 @@
     <string name="dulcinea">Dulcinea de El Toboso</string>
     <string name="bachiller">La Casa del Bachiller</string>
 
-    <!-- Museums [CHAR LIMIT=NONE] -->
-    <string name="municipal">Municipal Museum</string>
-    <string name="hidalgo">Casa del Hidalgo</string>
-    <string name="railroad">Railroad National Museum</string>
-    <string name="pottery">Pottery Museum</string>
-    <string name="samper">Jose Luis Samper Museum</string>
-    <string name="moorish_and_christians">Moorish and Christians Museum</string>
-    <string name="cubillo">El Cubillo</string>
-
     <!-- Description [CHAR LIMIT=NONE] -->
     <string name="desc_mills">This is the most iconic monument of the Alcázar de San Juan. You can enter the mills and see how they worked, but the most impressive thing about the visit is the views.</string>
     <string name="desc_torreon">In this building lies the medieval memories of the town. It is a very popular place to visit. Inside the building there are panels with detailed information about the Alcázar history.</string>
@@ -65,6 +64,15 @@
     <string name="loc_local_government">geo:39.389171, -3.210368</string>
     <string name="loc_bull_ring">geo:39.389131, -3.218683</string>
 
+    <!-- Museums locations [CHAR LIMIT=NONE] -->
+    <string name="loc_municipal">geo:39.388755, -3.210030</string>
+    <string name="loc_hidalgo">geo:39.388943, -3.207468</string>
+    <string name="loc_railroad">geo:39.396827, -3.205239</string>
+    <string name="loc_pottery">geo:39.387757, -3.210919</string>
+    <string name="loc_samper">geo:39.388040, -3.204876</string>
+    <string name="loc_moorish_and_christians">geo:39.392004, -3.210131</string>
+    <string name="loc_cubillo">geo:39.387452, -3.213484</string>
+
     <!-- Restaurants locations [CHAR LIMIT=NONE] -->
     <string name="loc_vicente">geo:39.390974, -3.219069</string>
     <string name="loc_puente">geo:39.397810, -3.215125</string>
@@ -82,15 +90,4 @@
     <string name="loc_welcome2">geo:39.393647, -3.205068</string>
     <string name="loc_dulcinea">geo:39.517317, -2.996878</string>
     <string name="loc_bachiller">geo:39.407754, -3.124493</string>
-
-    <!-- Museums locations [CHAR LIMIT=NONE] -->
-    <string name="loc_municipal">geo:39.388755, -3.210030</string>
-    <string name="loc_hidalgo">geo:39.388943, -3.207468</string>
-    <string name="loc_railroad">geo:39.396827, -3.205239</string>
-    <string name="loc_pottery">geo:39.387757, -3.210919</string>
-    <string name="loc_samper">geo:39.388040, -3.204876</string>
-    <string name="loc_moorish_and_christians">geo:39.392004, -3.210131</string>
-    <string name="loc_cubillo">geo:39.387452, -3.213484</string>
-
-
 </resources>
