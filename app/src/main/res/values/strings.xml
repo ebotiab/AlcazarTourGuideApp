@@ -13,12 +13,12 @@
 
     <!-- Emblematic places [CHAR LIMIT=NONE] -->
     <string name="mills">The Mills</string>
-    <string name="bull_ring">The Bull Ring</string>
     <string name="torreon">The Torreon</string>
     <string name="alces">The Alces Park</string>
     <string name="train">The Train Station</string>
     <string name="castelar">The Castelar</string>
     <string name="local_government">The Local Government</string>
+    <string name="bull_ring">The Bull Ring</string>
 
     <!-- Restaurants [CHAR LIMIT=NONE] -->
     <string name="vicente">Casa Vicente</string>
@@ -39,15 +39,58 @@
     <string name="bachiller">La Casa del Bachiller</string>
 
     <!-- Museums [CHAR LIMIT=NONE] -->
-    <string name="mucipal">Municipal Museum</string>
+    <string name="municipal">Municipal Museum</string>
     <string name="hidalgo">Casa del Hidalgo</string>
     <string name="railroad">Railroad National Museum</string>
     <string name="pottery">Pottery Museum</string>
-    <string name="bull_fighting">Bull-fighting Museum</string>
     <string name="samper">Jose Luis Samper Museum</string>
     <string name="moorish_and_christians">Moorish and Christians Museum</string>
     <string name="cubillo">El Cubillo</string>
 
     <!-- Description [CHAR LIMIT=NONE] -->
-    <string name="to_complete">This description is needed to complete</string>
+    <string name="desc_mills">This is the most iconic monument of the Alcázar de San Juan. You can enter the mills and see how they worked, but the most impressive thing about the visit is the views.</string>
+    <string name="desc_torreon">In this building lies the medieval memories of the town. It is a very popular place to visit. Inside the building there are panels with detailed information about the Alcázar history.</string>
+    <string name="desc_alces">The Alces park a is spacious and welcoming place ideal to practicing sports or simply for walking and observing the beaty of nature.</string>
+    <string name="desc_train">Alcázar was one of the most important railway stops in the past. This train station made the town to grow and become what it is today.</string>
+    <string name="desc_castelar">Shops of all kind are concentrated in this street. It is usually many people who goes for a walk in search of discounts.</string>
+    <string name="desc_local_government">Here resides the mayor of Alcázar. In the plaza around the building there are many shops and restaurants</string>
+    <string name="desc_bull_ring">Following Spanish traditions, Alcázar occasionally organizes bullfights. This bullring has a long history and the building will impress any foreign visitor.</string>
+
+    <!-- Emblematic places locations[CHAR LIMIT=NONE] -->
+    <string name="loc_mills">geo:39.370730, -3.187962</string>
+    <string name="loc_torreon">geo:39.387717, -3.213388</string>
+    <string name="loc_alces">geo:39.389972, -3.223864</string>
+    <string name="loc_train">geo:39.395990, -3.205452</string>
+    <string name="loc_castelar">geo:39.390711, -3.209263</string>
+    <string name="loc_local_government">geo:39.389171, -3.210368</string>
+    <string name="loc_bull_ring">geo:39.389131, -3.218683</string>
+
+    <!-- Restaurants locations [CHAR LIMIT=NONE] -->
+    <string name="loc_vicente">geo:39.390974, -3.219069</string>
+    <string name="loc_puente">geo:39.397810, -3.215125</string>
+    <string name="loc_cayetana">geo:39.389455, -3.209907</string>
+    <string name="loc_cancelas">geo:39.389608, -3.208296</string>
+    <string name="loc_mancha">geo:39.390814, -3.219182</string>
+    <string name="loc_chata">geo:39.392682, -3.222415</string>
+    <string name="loc_santina">geo:39.389385, -3.210124</string>
+
+    <!-- Hotels locations [CHAR LIMIT=NONE] -->
+    <string name="loc_intur">geo:39.387419, -3.225533</string>
+    <string name="loc_insula_barataria">geo:39.387591, -3.231361</string>
+    <string name="loc_santa_clara">geo:39.389156, -3.202958</string>
+    <string name="loc_hidalgo_quijada">geo:39.394486, -3.210989</string>
+    <string name="loc_welcome2">geo:39.393647, -3.205068</string>
+    <string name="loc_dulcinea">geo:39.517317, -2.996878</string>
+    <string name="loc_bachiller">geo:39.407754, -3.124493</string>
+
+    <!-- Museums locations [CHAR LIMIT=NONE] -->
+    <string name="loc_municipal">geo:39.388755, -3.210030</string>
+    <string name="loc_hidalgo">geo:39.388943, -3.207468</string>
+    <string name="loc_railroad">geo:39.396827, -3.205239</string>
+    <string name="loc_pottery">geo:39.387757, -3.210919</string>
+    <string name="loc_samper">geo:39.388040, -3.204876</string>
+    <string name="loc_moorish_and_christians">geo:39.392004, -3.210131</string>
+    <string name="loc_cubillo">geo:39.387452, -3.213484</string>
+
+
 </resources>

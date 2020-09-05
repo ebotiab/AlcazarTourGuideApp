@@ -49,14 +49,14 @@ public class TourItemAdapter extends ArrayAdapter<TourItem>  {
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
         // Get the name from the currentTourItem object and set this text on
         // the name TextView.
-        nameTextView.setText(currentTourItem.getName());
+        nameTextView.setText(currentTourItem.getNameResource());
 
         // Find the TextView in the list_item.xml layout with the ID description_text_view.
         TextView descriptionTextView = listItemView.findViewById(R.id.description_text_view);
         // Check if an description is provided for this tour item or not
         if (currentTourItem.hasDescription()) {
             // If a description is available, display the provided description
-            descriptionTextView.setText(currentTourItem.getDescription());
+            descriptionTextView.setText(currentTourItem.getDescriptionResource());
             // Make sure the view is visible
             descriptionTextView.setVisibility(View.VISIBLE);
         } else {
