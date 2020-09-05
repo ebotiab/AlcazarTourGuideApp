@@ -20,7 +20,6 @@
     <string name="castelar">The Castelar</string>
     <string name="local_government">The Local Government</string>
 
-
     <!-- Restaurants [CHAR LIMIT=NONE] -->
     <string name="vicente">Casa Vicente</string>
     <string name="puente">El Puente</string>
@@ -49,5 +48,6 @@
     <string name="moorish_and_christians">Moorish and Christians Museum</string>
     <string name="cubillo">El Cubillo</string>
 
-
+    <!-- Description [CHAR LIMIT=NONE] -->
+    <string name="to_complete">This description is needed to complete</string>
 </resources>

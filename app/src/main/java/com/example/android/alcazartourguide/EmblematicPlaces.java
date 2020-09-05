@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Menu extends AppCompatActivity {
+public class EmblematicPlaces extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
