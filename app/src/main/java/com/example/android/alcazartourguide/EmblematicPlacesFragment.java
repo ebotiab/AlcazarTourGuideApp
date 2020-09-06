@@ -35,7 +35,7 @@ public class EmblematicPlacesFragment extends Fragment {
         tourItems.add(new TourItem(R.string.alces, R.string.desc_alces, R.drawable.alces_park, R.string.loc_alces));
         tourItems.add(new TourItem(R.string.train, R.string.desc_train, R.drawable.train_station, R.string.loc_train));
         tourItems.add(new TourItem(R.string.castelar, R.string.desc_castelar, R.drawable.la_castelar, R.string.loc_castelar));
-        tourItems.add(new TourItem(R.string.local_government, R.string.desc_local_government, R.drawable.intur, R.string.loc_local_government));
+        tourItems.add(new TourItem(R.string.local_government, R.string.desc_local_government, R.drawable.ayuntamiento, R.string.loc_local_government));
         tourItems.add(new TourItem(R.string.bull_ring, R.string.desc_bull_ring, R.drawable.bull_ring, R.string.loc_bull_ring));
 
         // Create an {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The

@@ -5,9 +5,9 @@
     <string name="welcome">Welcome to Alcázar de San Juan</string>
 
     <!-- Menu options [CHAR LIMIT=NONE] -->
-    <string name="category_emblematic">Emblematic places</string>
+    <string name="category_emblematic">Iconic</string>
     <string name="category_museums">Museums</string>
-    <string name="category_restaurants">Restaurants</string>
+    <string name="category_restaurants">Food</string>
     <string name="category_hotels">Hotels</string>
 
     <!-- Emblematic places [CHAR LIMIT=NONE] -->
@@ -47,8 +47,8 @@
     <string name="bachiller">La Casa del Bachiller</string>
 
     <!-- Description [CHAR LIMIT=NONE] -->
-    <string name="desc_mills">This is the most iconic monument of the Alcázar de San Juan. You can enter the mills and see how they worked, but the most impressive thing about the visit is the views.</string>
-    <string name="desc_torreon">In this building lies the medieval memories of the town. It is a very popular place to visit. Inside the building there are panels with detailed information about the Alcázar history.</string>
+    <string name="desc_mills">This is the most emblematic monument of the Alcázar de San Juan. You can enter the mills and see how they worked, but the most impressive is the views.</string>
+    <string name="desc_torreon">In this popular building lies the medieval memories of the town. Inside the building there are panels with detailed information about the Alcázar history.</string>
     <string name="desc_alces">The Alces park a is spacious and welcoming place ideal to practicing sports or simply for walking and observing the beaty of nature.</string>
     <string name="desc_train">Alcázar was one of the most important railway stops in the past. This train station made the town to grow and become what it is today.</string>
     <string name="desc_castelar">Shops of all kind are concentrated in this street. It is usually many people who goes for a walk in search of discounts.</string>
