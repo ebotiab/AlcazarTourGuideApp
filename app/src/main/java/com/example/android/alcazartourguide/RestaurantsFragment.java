@@ -31,13 +31,13 @@ public class RestaurantsFragment extends Fragment {
 
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
-        tourItems.add(new TourItem(R.string.vicente, (float) 4.5, R.drawable.intur, R.string.loc_vicente));
-        tourItems.add(new TourItem(R.string.puente, (float) 4.4, R.drawable.intur, R.string.loc_puente));
-        tourItems.add(new TourItem(R.string.cayetana, (float) 4.3, R.drawable.intur, R.string.loc_cayetana));
-        tourItems.add(new TourItem(R.string.cancelas, (float) 4.6, R.drawable.intur, R.string.loc_cancelas));
-        tourItems.add(new TourItem(R.string.mancha, (float) 4.3, R.drawable.intur, R.string.loc_mancha));
-        tourItems.add(new TourItem(R.string.chata, (float) 4.4, R.drawable.intur, R.string.loc_chata));
-        tourItems.add(new TourItem(R.string.santina, (float) 3.8, R.drawable.intur, R.string.loc_santina));
+        tourItems.add(new TourItem(R.string.vicente, (float) 4.5, R.drawable.casa_vicente, R.string.loc_vicente));
+        tourItems.add(new TourItem(R.string.puente, (float) 4.4, R.drawable.el_puente, R.string.loc_puente));
+        tourItems.add(new TourItem(R.string.cayetana, (float) 4.3, R.drawable.la_cayetana, R.string.loc_cayetana));
+        tourItems.add(new TourItem(R.string.cancelas, (float) 4.6, R.drawable.las_cancelas, R.string.loc_cancelas));
+        tourItems.add(new TourItem(R.string.mancha, (float) 4.3, R.drawable.la_mancha, R.string.loc_mancha));
+        tourItems.add(new TourItem(R.string.chata, (float) 4.4, R.drawable.la_chata, R.string.loc_chata));
+        tourItems.add(new TourItem(R.string.santina, (float) 3.8, R.drawable.la_santina, R.string.loc_santina));
 
         // Create an {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.

@@ -64,10 +64,40 @@ public class TourItemAdapter extends ArrayAdapter<TourItem>  {
             descriptionTextView.setVisibility(View.GONE);
         }
 
-        // Find the ImageView in the list_item.xml layout with the ID stars.
-        ImageView imageView = listItemView.findViewById(R.id.stars);
+        // Find the ImageView in the list_item.xml layout with the ID image.
+        ImageView imageView = listItemView.findViewById(R.id.image);
         // Get the image from the currentTourItem object and set it on the image View.
         imageView.setImageResource(currentTourItem.getImageResourceId());
+
+        // Find the ImageView in the list_item.xml layout with the ID image.
+        ImageView starsImageView = listItemView.findViewById(R.id.stars);
+
+        // Check if a punctuation is provided for this tour item or not
+        if (currentTourItem.hasStars()) {
+            // Find the punctuation of the current tour item
+            float stars = currentTourItem.getStars();
+            // If punctuation is available, sets the image resource depending of that punctuation
+            if (stars>=5){
+                starsImageView.setImageResource(R.drawable.stars5);
+            } else if (stars<5 & stars>=4.5){
+                starsImageView.setImageResource(R.drawable.stars4_5);
+            } else if (stars<4.5 & stars>=4){
+                starsImageView.setImageResource(R.drawable.stars4);
+            } else if (stars<4 & stars>=3.5){
+                starsImageView.setImageResource(R.drawable.starse3_5);
+            } else if (stars<3.5 & stars>=3){
+                starsImageView.setImageResource(R.drawable.stars3);
+            } else if (stars<3 & stars>=2.5){
+                starsImageView.setImageResource(R.drawable.stars2_5);
+            } else{
+                starsImageView.setImageResource(R.drawable.stars2);
+            }
+            // Make sure the view is visible
+            starsImageView.setVisibility(View.VISIBLE);
+        } else {
+            // Otherwise hide the ImageView (set visibility to GONE)
+            starsImageView.setVisibility(View.GONE);
+        }
 
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);

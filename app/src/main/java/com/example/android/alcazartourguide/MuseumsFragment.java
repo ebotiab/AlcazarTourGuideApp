@@ -31,13 +31,13 @@ public class MuseumsFragment extends Fragment {
 
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
-        tourItems.add(new TourItem(R.string.municipal, (float) 4.2, R.drawable.intur, R.string.loc_municipal));
-        tourItems.add(new TourItem(R.string.hidalgo, (float) 4.4, R.drawable.intur, R.string.loc_hidalgo));
-        tourItems.add(new TourItem(R.string.railroad, (float) 4.2, R.drawable.intur, R.string.loc_railroad));
-        tourItems.add(new TourItem(R.string.pottery, (float) 4.3, R.drawable.intur, R.string.loc_pottery));
-        tourItems.add(new TourItem(R.string.samper, (float) 4.6, R.drawable.intur, R.string.loc_samper));
-        tourItems.add(new TourItem(R.string.moorish_and_christians, (float) 3, R.drawable.intur, R.string.loc_moorish_and_christians));
-        tourItems.add(new TourItem(R.string.cubillo, (float) 5, R.drawable.intur, R.string.loc_cubillo    ));
+        tourItems.add(new TourItem(R.string.municipal, (float) 4.2, R.drawable.museo_municipal, R.string.loc_municipal));
+        tourItems.add(new TourItem(R.string.hidalgo, (float) 4.4, R.drawable.casa_del_hidalgo, R.string.loc_hidalgo));
+        tourItems.add(new TourItem(R.string.railroad, (float) 4.2, R.drawable.nacional_del_ferrocarril, R.string.loc_railroad));
+        tourItems.add(new TourItem(R.string.pottery, (float) 4.3, R.drawable.museo_alfareria, R.string.loc_pottery));
+        tourItems.add(new TourItem(R.string.samper, (float) 4.6, R.drawable.jose_luis_samper, R.string.loc_samper));
+        tourItems.add(new TourItem(R.string.moorish_and_christians, (float) 3, R.drawable.moros_y_cristianos, R.string.loc_moorish_and_christians));
+        tourItems.add(new TourItem(R.string.cubillo, (float) 5, R.drawable.el_cubillo, R.string.loc_cubillo    ));
 
         // Create an {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.

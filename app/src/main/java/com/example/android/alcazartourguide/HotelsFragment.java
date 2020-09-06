@@ -32,12 +32,12 @@ public class HotelsFragment extends Fragment {
         // Create a list of tour items
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
         tourItems.add(new TourItem(R.string.intur, (float) 4.3, R.drawable.intur, R.string.loc_intur));
-        tourItems.add(new TourItem(R.string.insula_barataria, (float) 3.9, R.drawable.intur, R.string.loc_insula_barataria));
-        tourItems.add(new TourItem(R.string.santa_clara, (float) 3.9, R.drawable.intur, R.string.loc_santa_clara));
-        tourItems.add(new TourItem(R.string.hidalgo_quijada, (float) 4.2, R.drawable.intur, R.string.loc_hidalgo_quijada));
-        tourItems.add(new TourItem(R.string.welcome2, (float) 3.7, R.drawable.intur, R.string.loc_welcome2));
-        tourItems.add(new TourItem(R.string.dulcinea, (float) 4.3, R.drawable.intur, R.string.loc_dulcinea));
-        tourItems.add(new TourItem(R.string.bachiller, (float) 4.4, R.drawable.intur, R.string.loc_bachiller));
+        tourItems.add(new TourItem(R.string.insula_barataria, (float) 3.9, R.drawable.insula_barataria, R.string.loc_insula_barataria));
+        tourItems.add(new TourItem(R.string.santa_clara, (float) 3.9, R.drawable.convento_santa_clara, R.string.loc_santa_clara));
+        tourItems.add(new TourItem(R.string.hidalgo_quijada, (float) 4.2, R.drawable.hidalgo_quijada, R.string.loc_hidalgo_quijada));
+        tourItems.add(new TourItem(R.string.welcome2, (float) 3.7, R.drawable.welcome2_alcazar, R.string.loc_welcome2));
+        tourItems.add(new TourItem(R.string.dulcinea, (float) 4.3, R.drawable.dulcinea_el_toboso, R.string.loc_dulcinea));
+        tourItems.add(new TourItem(R.string.bachiller, (float) 4.4, R.drawable.la_casa_del_bachiller, R.string.loc_bachiller));
 
         // Create an {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.
