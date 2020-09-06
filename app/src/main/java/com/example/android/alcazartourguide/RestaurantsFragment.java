@@ -41,7 +41,7 @@ public class RestaurantsFragment extends Fragment {
 
         // Create an {@link TourItemAdapter}, whose data source is a list of {@link TourItem}s. The
         // adapter knows how to create list items for each item in the list.
-        TourItemAdapter adapter = new TourItemAdapter(getActivity(), tourItems, R.color.category_family);
+        TourItemAdapter adapter = new TourItemAdapter(getActivity(), tourItems, R.color.category);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
